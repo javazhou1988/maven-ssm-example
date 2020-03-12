@@ -34,4 +34,13 @@ public class User {
     public void setUserAge(Integer userAge) {
         this.userAge = userAge;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId='" + userId + '\'' +
+                ", userName='" + userName + '\'' +
+                ", userAge=" + userAge +
+                '}';
+    }
 }
